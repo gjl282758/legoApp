@@ -1,0 +1,184 @@
+#header .container p:first-of-type{
+    padding: 21px 0 21px 282px;
+    font-family: SimHei;
+    color: #666666;
+}
+#header .container .logo {
+    width: 258px;
+    height: 105px;
+}
+#header .container p:last-of-type{
+    color: #a6a6a6;
+    margin-right: 86px;
+
+}
+
+/* 登陆注册 */
+#logon {
+    height: 500px;
+    position: relative;
+    background: url(../imgs/logon/dlb.png) no-repeat;
+}
+
+
+#logon #myform {
+    width: 350px;
+    height: 370px;
+    background: #fff;
+    position: absolute;
+    top: 64px;
+    right: 180px;
+    
+
+}
+
+/* 头部 */
+#myform .logonf{
+    height: 55px;
+    width: 350px;
+
+}
+#myform .logonf div{
+    width: 171px;
+    height: 55px;
+    line-height: 55px;
+    
+}
+
+
+.loon{
+    color: #f60;
+}
+
+
+
+/* 中部 */
+/* 第一个 */
+.yardon{
+    display: block !important;
+}
+#myform .yardc ul{
+    display: none;
+}
+#myform .yardc .yardf .yard {
+    margin: 55px 0 31px 0;
+}
+
+#myform .yardc .yardf .yard img:first-child {
+    margin-left: 30px;
+}
+
+#myform .yardc .yardf .yard img:last-child {
+    margin-left: 25px;
+}
+
+/* 第二个 */
+#myform .yardc .yardz .yardt {
+    width: 290px;
+}
+
+#myform .yardc .yardz .yardt p{
+    display: block;
+    width: 290px;
+    height: 38px;
+    text-indent: 0;
+    outline: none;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+#myform .yardc .yardz .yardt .zh input {
+    width: 235px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 45px;
+    border: 0;
+    outline: none;
+}
+
+#myform .yardc .yardz .yardt .zh img:first-child {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#delIcon{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    display: none;
+}
+#myform .yardc .yardz .yardt p label.error{
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 62px;
+}
+#myform .yardc .yardz .yardt .mm input {
+    width: 235px;
+    height: 33px;
+    border: 0;
+    margin-left: 45px;
+    outline: none;
+
+}
+
+#myform .yardc .yardz .yardt .mm img:first-child {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#myform .yardc .yardz .yardt .mm img:last-child{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    display: none;
+}
+#myform .yardc .yardz .yardt .up {
+    line-height: 40px;
+    border: 0;
+}
+
+#myform .yardc .yardz .yardt .up input {
+    margin-top: 14px;
+}
+
+#myform .yardc .yardz .yardt .sub {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+#myform .yardc .yardz .yardt .sub input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    background: #f60;
+    color: #fff;
+}
+#myform .yardc .yardz .register{
+    line-height: 40px;
+    border-top: 2px solid #ccc;
+}
+#myform .yardc .yardz .register span{
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   line-height: 16px;
+   border-radius: 50%;
+   background: #e43b3d;
+}
+#myform .yardc .yardz .register a{
+    display: block;
+    margin-left: 7px;
+    color: #f60;
+    border: 0;
+    outline: none;
+    margin-top: 8px;
+}
+#myform .yardc .yardz .register span{
+    margin-right: 10px;
+}
+

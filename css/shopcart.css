@@ -1,0 +1,192 @@
+/* 头部 */
+#header .logo{
+    width: 258px;
+	height: 105px;
+}
+
+#delivery select{
+    width: 170px;
+    height: 22px;
+    outline: none;
+}
+#delivery p{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+/* 购物车内容*/
+#shopCar td{
+    text-align: center;
+   
+}
+#shopCar thead tr{
+    padding:10px;
+}
+#shopCar tbody tr td:not(:last-of-type){
+    padding:10px;
+
+}
+#shopCar td span{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border:1px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+#shopCar .num{
+    width: 72px;
+    height: 26px;
+    line-height: 26px;
+    border:1px solid #ccc;  
+    border-left:none;  
+    border-right:none;
+    text-align: center; 
+    outline: none; 
+}
+#shopCar thead tr th,#shopCar tfoot tr td{
+    height: 60px;
+    line-height: 60px;
+    background: #f2f2f2;
+    font-weight: normal;
+}
+#shopCar tr{
+    border-bottom:1px solid #ccc;
+}
+#shopCar tbody img{
+    margin-left: -160px;
+   
+}
+#shopCar tbody tr .sigSel{
+    margin-left: -32px;
+}
+#shopCar tbody tr td a{
+    margin-right: 57px;
+}
+
+
+#shopCar tfoot .count,#shopCar tfoot .allPrice{
+    border: none;
+    color: #ff6600;
+    font-size: 16px;
+}
+#shopCar tfoot td{
+    line-height: 60px;
+}
+#shopCar tfoot tr td.del{
+    padding: 0 0 0 0 !important;
+}
+#shopCar tfoot tr>td:last-child{
+    position: relative;
+    height: 60px;
+}
+#shopCar tfoot .closebtn{
+    width: 138px;
+	height: 60px;
+	background-color: #ff6600;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fefefe;
+    font-size: 26px;
+}
+
+/* 猜你喜欢 */
+#Popular{
+    height: 320px;
+}
+
+#Popular .ptitle {
+    height: 54px;
+    border-bottom: 6px solid #f60;
+    position: relative;
+}
+
+#Popular .ptitle span {
+    display: inline-block;
+    font-weight: normal;
+    width: 124px;
+    height: 48px;
+    line-height: 48px;
+    background: #f60;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+#Popular .pul li {
+    width: 210px;
+    height: 260px;
+    margin-left: 30px;
+}
+#Popular .pul li:hover{
+    background-color: #f2f2f2;
+}
+
+#Popular .pul li a img{
+    width: 150px;
+    height: 150px;
+    margin: 7px 30px 0;
+}
+
+#Popular .pul li p {
+    text-indent: 10px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+#Popular .pul li p:nth-of-type(2) {
+    color: #f4290d;
+    position: relative;
+    font-size: 14px;
+}
+
+#Popular .pul li p:nth-of-type(2)>img {
+    width: 100px;
+    height: 18px;
+    position: absolute;
+    top: -8px;
+    right: 30px;
+}
+#Popular .pul li p:nth-of-type(3){
+    color: #f4290d;
+
+}
+ 
+.tdlh{
+    margin-left: 22px;
+    text-decoration: line-through;
+    color: #c0c0c0;
+}
+.pon{
+    background: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    margin-top: 0;
+}

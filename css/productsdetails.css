@@ -1,0 +1,388 @@
+#proDetail{
+    background-color: #fff;
+    padding-bottom: 26px;
+    padding-top: 20px;
+    position: relative;
+    
+}
+/* 标题 */
+#proDetail .protitle{
+    position: absolute;
+    top: -35px;
+    left: 5px;
+}
+#proDetail .protitle li{
+    float: left;
+    margin-right: 15px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+}
+#proDetail .protitle li a{
+    color: #646464;
+
+}
+
+/* 左边 */
+#proDetail .leftbox{
+    width: 300px;
+    margin-bottom: 20px;
+    
+
+}
+#proDetail .leftbox>p{
+    margin: 106px 0 0 101px;
+}
+/* 右边 */
+#proDetail .rightbox{
+    width: 810px;
+}
+
+
+#proDetail .rightbox{
+    width: 790px;
+    padding-right: 20px;
+}
+#proDetail .rightbox .bgf5 p span{
+    margin-right:10px;
+}
+#proDetail .rightbox .assess{
+    width: 80px;
+    text-align: center;
+    right:20px;
+    top:20px;
+    border-left:1px solid #c1c0c0;
+}
+#proDetail .rightbox p i{
+    display: inline-block;
+    width: 88px;
+    height:26px;
+    line-height:26px;
+    text-align: center;
+    color:#fff;
+    background: url('../imgs/Q.png') no-repeat;
+    margin:0 10px;
+}
+#proDetail .rightbox div b{
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-weight: normal;
+}
+#proDetail .rightbox div b.active{
+    border: 1px solid #f60;
+    background: url(../imgs/select.png) no-repeat right bottom;
+}
+#proDetail .rightbox .num{
+    width: 60px;
+    height:40px;
+    border:1px solid #ccc;
+    margin-top: 12px;
+}
+#proDetail .rightbox .num input{
+    width: 40px;
+    height:40px;
+    border:none;
+    outline: none;
+
+}
+#proDetail .rightbox .num a{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    background: #e4e4e4;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #616060;
+    /* 不准复制 */
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#proDetail .rightbox .btn{
+    width: 190px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f60;
+    border:none;
+    outline: none;
+    margin-left:25px;
+}
+
+/* 人气单品 */
+#Popular{
+    height: 320px;
+}
+
+#Popular .ptitle {
+    height: 54px;
+    border-bottom: 6px solid #f60;
+    position: relative;
+}
+
+#Popular .ptitle span {
+    display: inline-block;
+    font-weight: normal;
+    width: 124px;
+    height: 48px;
+    line-height: 48px;
+    background: #f60;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+#Popular .pul li {
+    width: 210px;
+    height: 260px;
+    margin-left: 30px;
+}
+
+#Popular .pul li a img{
+    width: 150px;
+    height: 150px;
+    margin: 7px 30px 0;
+}
+
+#Popular .pul li p {
+    text-indent: 10px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+#Popular .pul li p:nth-of-type(2) {
+    color: #f4290d;
+    position: relative;
+    font-size: 14px;
+}
+
+#Popular .pul li p:nth-of-type(2)>img {
+    width: 100px;
+    height: 18px;
+    position: absolute;
+    top: -8px;
+    right: 30px;
+}
+#Popular .pul li p:nth-of-type(3){
+    color: #f4290d;
+
+}
+ 
+.tdlh{
+    margin-left: 22px;
+    text-decoration: line-through;
+    color: #c0c0c0;
+}
+.pon{
+    background: #f2f2f2;
+}
+
+
+/* 看了又看 */
+/* 左边 */
+#look .lookfl{
+    width: 318px;
+	height: 2212px;
+	border: solid 1px #e6e6e6;
+}
+#look .lookfl>p{
+    width: 318px;
+	height: 40px;
+    background-color: #f4f4f4;
+    line-height: 40px;
+}
+#look .lookfl .lookul{
+    width: 294px;
+}
+#look .lookfl .lookul li:not(:last-child){
+    
+    border-bottom: 1px solid #e6e6e6;
+}
+#look .lookfl .lookli .lookld{
+    width: 180px;
+    height: 244px;
+    margin: 0 auto;
+    padding: 37px 57px 30px;
+}
+#look .lookfl .lookli .lookld:hover{
+    background-color: #f2f2f2;
+}
+
+/* 右边 */
+#look .lookfr{
+    width: 856px;
+    padding-bottom: 50px;
+}
+
+#look .lookfr .lookfrp{
+    width: 856px;
+    height: 53px;
+    border-bottom: 6px solid #f60;
+    position: relative;
+}
+#look .lookfr .lookfrp span{
+    display: inline-block;
+    width: 150px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 22px;
+    color: #4c4c4c;
+}
+#look .lookfr .lookfrp .PL{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#look .lookfr .lookfrp .PR{
+    position: absolute;
+    bottom: 0;
+    left: 150PX;
+}
+.Lon{
+    background-color: #ff6600;
+    color: #fefefe !important;
+}
+/* 商品介绍 */
+#look .lookfr .news{
+    width: 752px;
+    height: 3245px;
+}
+/* 商品详情 */
+#look .lookfr .commodity .comtop{
+    width: 856px;
+    height: 172px;
+}
+#look .lookfr .commodity .comtop>div{
+    margin: 44px 5px 47px 85px;
+}
+#look .lookfr .commodity .comtop>div p:first-child{
+    width: 95px;
+    height: 50px;
+    line-height: 50px;
+	font-family: SimHei;
+	font-size: 60px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #f8380c;
+}
+#look .lookfr .commodity .comtop>div p:last-child{
+        width: 59px;
+        height: 20px;
+        line-height: 20px;
+        font-family: SimHei;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 0px;
+        color: #999999;
+}
+#look .lookfr .commodity .comtop .comult{
+    width: 222px;
+    height: 80px;
+    margin: 25px 0 0 115px;
+
+}
+#look .lookfr .commodity .comtop .comult li{
+    color: #999999;
+}
+#look .comtop .outdiv{
+    display: in;
+    width: 150px;
+	height: 16px;
+    background-color: #e6e6e6;
+    position: relative;
+}
+
+#look .comtop .indiv1{
+    width: 98%;
+    height: 16px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#look .comtop .indiv2{
+    width: 2%;
+    height: 16px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#look .lookfr .commodity .evaluate{
+    width: 856px;
+    height: 30px;
+    line-height: 30px;
+	background-color: #f5f5f5;
+}
+#look .evaluate span{
+    margin-left: 35px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: normal;
+}
+.evaon{
+    color: #f8380c !important;
+}
+.con{
+    display: block !important;
+}
+#look .commodity>div{
+    display: none;
+}
+
+#evaluatebox .evaul li{
+    
+    width: 856px;
+    height: 126px;
+    border-bottom: 2px solid #f5f5f5;
+}
+#evaluatebox>ul{
+    display: none;
+    height: 2000px;
+}
+.bon{
+    display: block !important;
+}
+
+
+.moshou img{
+    width: 1200px;
+    height: 90px;
+    
+}
+#footer{
+    margin-top: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+#look .comtop .comzz{
+    width: 335px;
+    height: 50px;
+    margin-top: -55px;
+    color: #666666;
+}
+#look .comtop .comzz li{
+    float: left;
+    width: 335px;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 15px;
+} 

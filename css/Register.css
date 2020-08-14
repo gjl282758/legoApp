@@ -1,0 +1,141 @@
+/* 注册登录 */
+/* 头部 */
+#header {
+    box-shadow: 0 2px 0 0 #e6e6e6;
+}
+
+#header .container p:first-of-type {
+    padding: 21px 0 21px 282px;
+    font-family: SimHei;
+    color: #666666;
+}
+
+#header .container .logo {
+    width: 258px;
+    height: 105px;
+}
+
+#header .container p:last-of-type {
+    color: #a6a6a6;
+    margin-right: 86px;
+    padding-top: 30px;
+}
+
+/* 中部 */
+#myform {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+#myform .myul {
+    width: 410px;
+    height: 605px;
+    margin: 56px auto 0;
+
+}
+
+#myform .myul li {
+    line-height: 44px;
+    position: relative;
+}
+#myform .myul li:not(:nth-child(6)){
+    margin-bottom: 48px;
+
+}
+#myform .myul li:not(:nth-child(7)) {
+    width: 400px;
+    height: 44px;
+
+}
+
+#myform .myul li:not(:nth-child(7)) input {
+    width: 100%;
+    height: 100%;
+    text-indent: 120px;
+}
+
+#myform .myul li:not(:nth-child(7)) span {
+    font-size: 20px;
+    color: #666666;
+    position: absolute;
+    top: 0;
+    left: 11px;
+}
+#myform li label.error{
+    width: auto;
+    font-size:12px; 
+    color: red;
+
+
+    position: absolute;
+    left:10px;
+    top:40px;
+}
+#myform .myul li:nth-child(5) a{
+    display: inline-block;
+    width: 124px;
+	height: 38px;
+    background-color: #1a83e5;
+    font-size: 28px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+#myform .myul li:nth-child(6){
+    border: transparent;
+}
+#myform .myul li:nth-child(6) a{
+    display: inline-block;
+    width: 124px;
+	height: 38px;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    color: #4d4d4d;
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+#myform .myul li:nth-child(7){
+    margin-top: 12px;
+}
+#myform .myul li:nth-child(7) label{
+    display: inline-block;
+    line-height: 44px;
+    height: 44px;
+    position: relative;
+    text-indent: 20px;
+}
+#myform .myul li:nth-child(7) input{
+    position: absolute;
+    top: 16px;
+    left: 0;
+}
+#myform .myul li:nth-child(7) a{
+    color: #f60;
+}
+#myform .myul .btn{
+    width: 400px;
+    height: 44px;
+    background: #ccc;
+	color: #ffffff;
+	font-size: 24px;
+    line-height: 44px;
+    border: 0;  
+    margin-top: -14px;  
+}
+#myform .myul .on{
+    background: #f60;
+}
+
+
+
+
